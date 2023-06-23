@@ -1,13 +1,38 @@
-*{
-    background-color: #c377ca;
-
+body{
+    background-color: #9ecfa4;
+    font-family: Georgia, "Brush Script MT","Courier New", sans-sarif;
+    align-content: center;
+    line-height: 17px;    
+}
+h4{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .links{
-    color: #77cac3;
-    text-decoration: none;
-
+    color: #39c692;
+    list-style: none;
 }
 #home{
-    background-color: #77cac3;
+    background-color: #39c692;
     display: inline-block;
+        font-size: 35px;
+}
+.recipe-card {
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 8px solid #40bf51;
+    padding:10px;
+    width: 700px;
+    background-color: #c9bacd;
+}
+.directions{
+    line-height: 20px;
+}
+.ingredients{
+    text-transform: capitalize;
+}
+#name-of-dish{
+    text-transform: uppercase;
 }
