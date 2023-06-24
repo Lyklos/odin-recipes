@@ -15,24 +15,41 @@ h4{
 #home{
     background-color: #39c692;
     display: inline-block;
-        font-size: 35px;
+        font-size: 30px;
 }
 .recipe-card {
-    position: absolute;
-    top: 97%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin-left: auto;
+    margin-right: auto;
     border: 8px solid #40bf51;
-    padding:10px;
+    padding:20px;
     width: 700px;
     background-color: #c9bacd;
 }
 .directions{
-    line-height: 20px;
+    line-height: 27px;
 }
 .ingredients{
     text-transform: capitalize;
 }
 #name-of-dish{
     text-transform: uppercase;
+}
+.links{
+    line-height: 25px;
+    font-size: 30px;      
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
