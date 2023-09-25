@@ -1,5 +1,8 @@
+html{
+    box-sizing: border-box;
+}
 body{
-    background-color: #9ecfa4;
+    background-color: #d3cfac;
     font-family: Georgia, "Brush Script MT","Courier New", sans-sarif;
     align-content: center;
     line-height: 17px;    
@@ -8,51 +11,49 @@ h4{
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.links{
-    color: #39c692;
+.recipe-list .links {
     list-style: none;
+    text-align: left;
+    padding: 20px;
+    margin: 20px 30px;
+/*    border: #ac9840 solid 5px;*/
 }
-#home{
-    background-color: #39c692;
+#home-button{
+    background-color: #cfc07a;
     display: inline-block;
         font-size: 30px;
 }
+
 .recipe-card {
     margin: 70px auto;
-    border: 8px solid #40bf51;
-    padding:20px;
+    border: 8px solid #ac9840;
+    padding:25px;
     width: 700px;
-    background-color: #c9bacd;
+    background-color: #cdc8ba;
     display: block;
 }
 .directions{
-    line-height: 27px;
+    line-height: 25px;
 }
-.ingredients{
-    text-transform: capitalize;
-}
+.ingredients,
 #name-of-dish{
-    text-transform: uppercase;
+    text-transform: capitalize;
+    line-height: 20px;
 }
+
 .links{
     line-height: 30px;
-    font-size: 30px;      
+    font-size: 30px;     
+    list-style: none; 
 }
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
+a:link,
+a:visited,
+a:hover,
 a:active {
     text-decoration: none;
+    list-style: none; 
 }
+
 .notes{
     list-style: none;    
 }
