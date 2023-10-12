@@ -12,18 +12,37 @@ h4{
     color: #39c692;
     list-style: none;
 }
-#home{
-    background-color: #39c692;
-    display: inline-block;
-        font-size: 30px;
+
+.top-bar{
+    display: flex;
+    flex-flow: row;
+    background-color: #c9bacd;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-bar-items{
+    display: flex;
+    width: auto;
+    height: 30px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.top-bar h1{
+    display: flex;
+    flex-flow: column;
+    align-self: self-start;
+    font-size: 2em;
+    margin: 20px 0px 10px;
 }
 .recipe-card {
+    display: block;
     margin: 70px auto;
     border: 8px solid #40bf51;
     padding:20px;
     width: 700px;
     background-color: #c9bacd;
-    display: block;
 }
 .directions{
     line-height: 27px;
